@@ -1,0 +1,17 @@
+.news-item {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid; 
+   margin-bottom: 10px; 
+   padding-left: 50%;
+   align-items: center;
+   padding-right: 10%;
+   justify-content: center;
+}
+.news-img {
+    width: 400px;
+}
+.news-para {
+    justify-content: center;
+    align-items: center;
+}
