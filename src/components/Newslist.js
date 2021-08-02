@@ -14,7 +14,7 @@ const NewsList = () => {
    
     useEffect(() => {
        const getArticles = async () => {
-           const res = await axios.get('https://newsapi.org/v2/top-headlines?q=india&apiKey=819e5e59d29346c490ae9ed66356b2dd')
+           const res = await axios.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=819e5e59d29346c490ae9ed66356b2dd')
         
            setArticles(res.data.articles)
   
